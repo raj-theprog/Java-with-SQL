@@ -36,7 +36,7 @@ import java.util.Scanner;
                 e.printStackTrace();
             }
         }
-        // ✅ Update doctor details
+        // Update doctor details
         public void updateDoctor() {
             System.out.print("Enter Doctor ID to update: ");
             int id = scanner.nextInt();
@@ -68,7 +68,7 @@ import java.util.Scanner;
             }
         }
 
-        // ✅ Delete doctor by ID
+        //  Delete doctor by ID
         public void deleteDoctor() {
             System.out.print("Enter Doctor ID to delete: ");
             int id = scanner.nextInt();
@@ -104,3 +104,4 @@ import java.util.Scanner;
             return false;
         }
     }
+
